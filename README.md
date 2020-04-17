@@ -25,7 +25,7 @@ On Realms, you'll need to download your world in order to install, and then uplo
 By default, a player is considered afk if his position in the world hasn't changed in at least 30 seconds. This can be changed using the following command:
 
 ```mcfunction
-/scoreboard players set #pafk_still pafk_still $new_value
+scoreboard players set #pafk_still pafk_still $new_value
 ```
 
 where `$new_value` is replaced with the number of seconds the player should be idle.
@@ -35,7 +35,7 @@ where `$new_value` is replaced with the number of seconds the player should be i
 To uninstall, run this command:
 
 ```mcfunction
-/function pafk:uninstall
+function pafk:uninstall
 ```
 
 After this, remove the datapack from your datapacks folder. To complete the uninstallation, run `/reload` or reload your world.
