@@ -1,4 +1,4 @@
-# AFK Peaceful
+# Peaceful AFK
 
 A Minecraft datapack for 1.15. Hostile mobs won't attack players who are afk.
 
