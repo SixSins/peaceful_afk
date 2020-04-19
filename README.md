@@ -30,6 +30,16 @@ scoreboard players set #pafk_still pafk_still $new_value
 
 where `$new_value` is replaced with the number of seconds the player should be idle.
 
+The internal name of the afk team is `pafk_afk`. You can customize its options for your needs with the appropriate `/team` commands. Default configuration is as follows:
+
+```mcfunction
+# afk players and nearby mobs do not collide with other entities
+team modify pafk_afk collisionRule never
+
+# afk players have gray names
+team modify pafk_afk color gray
+```
+
 ## Uninstall
 
 To uninstall, run this command:
