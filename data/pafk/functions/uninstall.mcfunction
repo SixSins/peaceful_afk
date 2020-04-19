@@ -9,4 +9,7 @@ scoreboard objectives remove pafk_z2
 
 scoreboard objectives remove pafk_tick
 scoreboard objectives remove pafk_still
+scoreboard objectives remove pafk_install
+
+# old commands
 scoreboard objectives remove pafk_uninstall
