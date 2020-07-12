@@ -7,7 +7,6 @@
         "minecraft:cave_spider",
         "minecraft:enderman",
         "minecraft:spider",
-        "minecraft:zombie_pigman",
         "minecraft:creeper",
         "minecraft:enderman",
         "minecraft:endermite",
@@ -31,6 +30,9 @@
         "minecraft:pillager",
         "minecraft:skeleton",
         "minecraft:stray",
-        "minecraft:witch"
+        "minecraft:witch",
+        "minecraft:piglin",
+        "minecraft:hoglin",
+        "minecraft:zoglin"
     ]
 }
